@@ -1,0 +1,76 @@
+
+$bpk-spacing-sm: 4px;
+$bpk-spacing-md: 8px;
+$bpk-spacing-base: 16px;
+$bpk-spacing-lg: 24px;
+$bpk-spacing-xl: 32px;
+$bpk-spacing-xxl: 40px;
+
+
+@import '~@skyscanner/backpack-web/bpk-mixins/index';
+
+
+@mixin container {
+  max-width: $bpk-breakpoint-desktop;
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
+
+  &__header {
+    padding: $bpk-spacing-lg * 2;
+    background-color: $bpk-color-sky-blue;
+    background-image: $bpk-primary-gradient;
+    color: $bpk-color-white;
+
+    @include bpk-box-shadow-sm;
+
+    @include bpk-breakpoint-mobile {
+      padding: $bpk-spacing-xl;
+    }
+  }
+
+  &__header-inner {
+    @include container;
+  }
+
+  &__main {
+    padding: $bpk-spacing-xxl;
+
+    @include container;
+
+    @include bpk-breakpoint-mobile {
+      padding: $bpk-spacing-base;
+    }
+  }
+
+  &__heading {
+    margin-bottom: $bpk-spacing-sm;
+  }
+
+  &__text {
+    margin-bottom: $bpk-spacing-sm;
+  }
+
+
+.App__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 2rem;
+  background-color: #f1f2f8; 
+  min-height: 80vh;
+}
+
+
+.App__calendar-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+}
