@@ -1,13 +1,24 @@
-> _This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) +
+# 🏆 Skyscanner Virtual Experience - Task 1 Completed
+![Skyscanner Certificate](https://www.theforage.com/completion-certificates/skoQmxqhtgWmKv2pm/km4rw7dihDr3etqom_skoQmxqhtgWmKv2pm_69c8f7fbfb4e9366170b7fc7_1774791114734_completion_certificate.pdf)
+
+## My Contribution
+I successfully implemented the flight search interface using **React** and the **Backpack Design System**. 
+
+### 🛠️ What I Solved:
+- **Environment Setup:** Resolved `npm` peer dependency conflicts and legacy version issues.
+- **UI Development:** Integrated Skyscanner's proprietary components (Buttons, Datepickers).
+- **Version Control:** Managed the project via Git on my local machine and pushed to GitHub.
+
+---
+
+
+_This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) +
 > [backpack-react-scripts](https://github.com/Skyscanner/backpack-react-scripts/tree/master/packages/react-scripts)._
 > It is very similar to one that you would create using [Create React App](https://github.com/facebook/create-react-app)
 > without [backpack-react-scripts](https://github.com/Skyscanner/backpack-react-scripts/tree/master/packages/react-scripts),
 > so please refer to [it's documentation](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md)
 > for more usage information.
 
-# [_Put your project name here_]
-
-[_Add a brief description of your project here._]
 
 ## npm script commands
 
