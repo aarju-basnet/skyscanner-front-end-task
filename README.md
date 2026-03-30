@@ -1,5 +1,5 @@
 # 🏆 Skyscanner Virtual Experience - Task 1 Completed
-![Skyscanner Task 1 Certificate](./certificate.png)
+![certificate](/certificate.png)
 
 ## My Contribution
 I successfully implemented the flight search interface using **React** and the **Backpack Design System**. 
